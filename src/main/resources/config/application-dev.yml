@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.93.129:3306/dailytest?useUnicode=true&characterEncoding=UTF-8
+    name: root
+    password: 123
+    platform: mysql
+    initialization-mode: always
+  redis:
+    host: 192.168.93.129
+    port: 6379
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  level: info
+#  path: D:/IDEAProject/Logger/
+#  file: D:/IDEAProject/Logger/logback.log
